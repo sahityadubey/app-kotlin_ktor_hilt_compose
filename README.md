@@ -20,8 +20,8 @@ TECH STACK 🛠️
 
 SETUP ▶️
 1. Clone both repositories:
-    - API Server: git clone [your-api-repo-url]
-    - Android App: git clone [your-android-repo-url]
+    - API Server: git clone [https://github.com/sahityadubey/web-kotlin_ktor]
+    - Android App: git clone [https://github.com/sahityadubey/app-kotlin_ktor_hilt_compose.git]
 
 2. Run API server first (from API repo):
    ./gradlew run
