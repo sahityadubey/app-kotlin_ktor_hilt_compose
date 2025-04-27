@@ -56,8 +56,8 @@ app/
 │   │   │   ├── MainActivity.kt  # Entry point
 │   │   │   └── MainViewModel.kt # Business logic
 │   │   └── res/                 # Android resources
-│   └── test/                    # Unit tests
-└── build.gradle                 # Dependency configurations
+├── test/                         # Unit tests
+└── build.gradle                  # Dependency configurations
 
 KEY COMPONENTS 🔑
 - MainViewModel: Manages API state and data fetching
@@ -67,6 +67,7 @@ KEY COMPONENTS 🔑
 - CoilImage: Async image loading implementation
 
 DEPENDENCIES 📦
+```
 dependencies {
 // Core Android
 implementation 'androidx.core:core-ktx:1.7.0'
@@ -87,6 +88,7 @@ implementation 'androidx.appcompat:appcompat:1.4.1'
     // Async
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.1'
 }
+```
 
 TESTING 🧪
 1. Ensure API server is running
